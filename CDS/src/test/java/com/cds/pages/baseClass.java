@@ -45,9 +45,6 @@ public class baseClass {
 		//driver = BrowserFactory.startApplication(driver, "Chrome", "https://openinet.indiabulls.com/");
 		driver = BrowserFactory.startApplication(driver, objConfig.getBrowser(), objConfig.getURL());
 		Thread.sleep(5000);
-		Thread.sleep(5000);
-		Thread.sleep(5000);
-		Thread.sleep(10000);
 		// System.out.println(driver.getTitle());
 		Reporter.log("Browser has been start.", true);
 	}
